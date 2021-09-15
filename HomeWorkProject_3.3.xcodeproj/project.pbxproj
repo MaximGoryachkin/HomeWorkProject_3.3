@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B518D9BE26F1D92D004B1DF5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518D9BD26F1D92D004B1DF5 /* RegisterView.swift */; };
-		B518D9C126F1DA5A004B1DF5 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518D9C026F1DA5A004B1DF5 /* UserManager.swift */; };
 		B518D9C426F1DD33004B1DF5 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518D9C326F1DD33004B1DF5 /* StarterView.swift */; };
 		B5F8BB4126F098100050CD21 /* HomeWorkProject_3_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F8BB4026F098100050CD21 /* HomeWorkProject_3_3App.swift */; };
 		B5F8BB4326F098110050CD21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F8BB4226F098110050CD21 /* ContentView.swift */; };
@@ -20,7 +19,6 @@
 
 /* Begin PBXFileReference section */
 		B518D9BD26F1D92D004B1DF5 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		B518D9C026F1DA5A004B1DF5 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		B518D9C326F1DD33004B1DF5 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		B5F8BB3D26F098100050CD21 /* HomeWorkProject_3.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkProject_3.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F8BB4026F098100050CD21 /* HomeWorkProject_3_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkProject_3_3App.swift; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 		B518D9D226F1E894004B1DF5 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				B518D9C026F1DA5A004B1DF5 /* UserManager.swift */,
 				B5F8BB6226F0D1860050CD21 /* TimeCounter.swift */,
 			);
 			path = Managers;
@@ -170,7 +167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B518D9C426F1DD33004B1DF5 /* StarterView.swift in Sources */,
-				B518D9C126F1DA5A004B1DF5 /* UserManager.swift in Sources */,
 				B5F8BB4326F098110050CD21 /* ContentView.swift in Sources */,
 				B518D9BE26F1D92D004B1DF5 /* RegisterView.swift in Sources */,
 				B5F8BB4126F098100050CD21 /* HomeWorkProject_3_3App.swift in Sources */,
