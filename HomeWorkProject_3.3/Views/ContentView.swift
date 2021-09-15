@@ -15,11 +15,10 @@ struct ContentView: View {
         VStack {
             Text("Hi, \(name)")
                 .font(.largeTitle)
-                .offset(x: 0, y: 100)
+                .offset(x: 0, y: 50)
             Spacer()
             Text("\(timer.counter)")
                 .font(.largeTitle)
-                .offset(x: 0, y: 100)
             Spacer()
             ButtonView(backgroung: .red,
                        title: timer.buttonTitile,
@@ -29,6 +28,7 @@ struct ContentView: View {
             ButtonView(backgroung: .blue,
                        title: "Log Out",
                        action: removeUser)
+            Spacer()
         }
         .padding()
     }

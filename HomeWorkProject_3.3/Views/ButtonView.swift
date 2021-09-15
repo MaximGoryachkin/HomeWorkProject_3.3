@@ -27,8 +27,10 @@ struct ButtonView: View {
     }
 }
 
-//struct ButtonView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ButtonView()
-//    }
-//}
+struct ButtonView_Previews: PreviewProvider {
+    static var previews: some View {
+        ButtonView(backgroung: .green,
+                   title: "Button") {
+        }
+    }
+}
